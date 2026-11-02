@@ -1,0 +1,26 @@
+{
+  "name": "ire-backend-2.5.1",
+  "version": "1.0.0",
+  "description": "Backend proxy e emulador de servidor para Ire Blood Memory v2.5.1",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "ire",
+    "unity",
+    "proxy",
+    "game-server",
+    "api"
+  ],
+  "author": "RibasDEV22",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
